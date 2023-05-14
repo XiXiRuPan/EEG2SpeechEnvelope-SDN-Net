@@ -1,0 +1,15 @@
+init_lr: 0.01
+update_step: 40
+num_epochs: 500
+batch_size: 128 #360 #16 #16 #128
+only_evaluate: False
+training_log_filename:  "training_log.csv"
+results_filename:  'eval.json'
+result_folder: 'result/SATDNN'
+model_name: 'SATDNN' 
+train_datapath: "/new_workspace/SPEECHEEG/split_data1"
+train_keyword: "train"
+test_datapath: test/task2/combine_eeg_envelop_processes
+test_keyword: .
+
+num_gpus: 2

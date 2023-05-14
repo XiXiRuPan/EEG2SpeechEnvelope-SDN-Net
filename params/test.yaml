@@ -1,0 +1,9 @@
+batch_size: 1
+result_folder: result/ATDNN/ 
+model_name: ATDNN 
+test_eeg: test/task2/preprocessed_eeg
+test_label: test/task2/labels
+test_keyword: "test"
+best_model: result/ATDNN/middle_30.pth  
+num_gpus: 1
+results_decoding: "results/decoding/Linear"
